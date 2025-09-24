@@ -1,0 +1,112 @@
+.navbar {
+    background-color: #005555;
+    color: white !important;
+    border-radius: 7px;
+    position: relative;
+    top: 10px;
+
+}
+
+:root{
+    --blue: #00204a;
+}
+.p_pri {
+    color: var(--blue) !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+
+}
+
+.logo {
+
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+#head {
+
+    background-image: url(https://themewagon.github.io/property/images/hero_bg_3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* Optional: hides anything outside */
+    position: relative;
+
+
+}
+
+.heading {
+    color: #fff;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.narrow-w {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-search .form-control {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 52px;
+}
+
+.form-search .g-btn {
+    background-color: #005555;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+.search_box{
+    /* border: 4px solid red; */
+    height: 70%;
+ 
+    display: flex;
+    justify-content: center;
+
+}
+.c-btn {
+    background-color: #005555;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+}
+#cards_section{
+    padding: 4rem 0;
+}
+.property-item .property-content {
+    background: #fff;
+    padding: 30px;
+    font-size: 13px;
+    position: relative;
+    width: 100%;
+    margin-top: -100px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+    z-index: 2;
+}
+#tns2 > .tns-item {
+    width: calc(6.66667%);
+    padding-right: 30px;
+}

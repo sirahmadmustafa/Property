@@ -345,3 +345,13 @@ ease;
     display: inline-block;
     text-decoration: underline;
 }
+
+.site-footer .social li a:hover {
+    background: #00204a;
+    color: #fff;
+}
+.social a:hover {
+    top: -5px;
+    /* background: transparent; */
+    border: 2px solid #fff;
+}
